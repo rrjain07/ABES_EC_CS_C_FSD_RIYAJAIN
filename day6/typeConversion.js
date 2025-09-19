@@ -8,3 +8,7 @@ console.log(typeof numToStr);
  let a ="23" +23 (-67) +"67" + true -false;
  console.log(a);
  
+ // typeof null - object 
+ // type of NULL - undefined 
+ // type of undefined - undedined
+ 
