@@ -16,3 +16,12 @@ const student ={
 // accessing object properties
 console.log(student.name);
 console.log(student['name']);
+let x='name';
+console.log(student[x]);
+
+function modifyStudent(obj){
+    obj.name="ABC";
+}
+
+modifyStudent(student);
+console.log(student.name);
